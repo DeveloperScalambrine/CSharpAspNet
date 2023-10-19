@@ -5,9 +5,14 @@
 		static void Main()
 		{
 			string userEntry = "54";
-			int valueConverted = 0;
+			int valueConverted;
 			bool canConvert = Int32.TryParse(userEntry, out valueConverted);
-			Console.WriteLine(canConvert + " " + valueConverted);
+			if (canConvert == true)
+			{
+				Console.WriteLine("Type a value to be storage in the variable valueConverted");
+				valueConverted = int.Parse(Console.ReadLine());				
+			}
+			// Console.WriteLine(canConvert + " " + valueConverted);
 			// long someLongNumber = 516144066604654;
 			// int intNumber = Convert.ToInt32(someLongNumber);
 

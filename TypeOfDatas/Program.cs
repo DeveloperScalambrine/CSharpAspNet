@@ -1,5 +1,4 @@
-﻿
-namespace TypeOfDatas
+﻿namespace TypeOfDatas
 {
 	class Program
 	{

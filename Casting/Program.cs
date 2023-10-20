@@ -10,7 +10,9 @@
 			if (canConvert == true)
 			{
 				Console.WriteLine("Type a value to be storage in the variable valueConverted");
-				valueConverted = int.Parse(Console.ReadLine());				
+				valueConverted = Convert.ToInt32(Console.ReadLine());		
+				
+						
 			}
 			// Console.WriteLine(canConvert + " " + valueConverted);
 			// long someLongNumber = 516144066604654;

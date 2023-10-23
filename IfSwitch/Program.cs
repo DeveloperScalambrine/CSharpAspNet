@@ -97,8 +97,7 @@
 			{
 				Console.WriteLine(name);
 			}
-		*/
-
+		
 			// string[] teachers = new string[] { "Joel", "Tess", "Marlene" };
 			// string[] students = new string[] { "Ellie", "Joel", "Abby" };
 			// foreach (var teacher in teachers)
@@ -120,6 +119,18 @@
 				count++;
 			}
 			Console.WriteLine(count + " votos válidos ");
+		*/
+
+												/* EXERCICIES 
+			// int[] myArray = new int[8]{ 1, 2, 3, 3, 1, 9, 7, 8 };
+			// int result = NumberTools.CountOf(myArray, 2);
+			// Console.WriteLine(result);
+			// NumberTools.IndexOf(myArray);
+			// int numberOfPair = NumberTools.CountEvenNumbers(myArray);
+			// Console.WriteLine(numberOfPair);
+			*/
+			
+		
 		}
 	}
 }

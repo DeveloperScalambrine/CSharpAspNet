@@ -4,6 +4,7 @@
   {
     static void Main(string[] args)
     {
+      
       // string[] names = new string[3];
       //  string teste = names.GetType().Name;
       //  if (teste == "Doublee[]")

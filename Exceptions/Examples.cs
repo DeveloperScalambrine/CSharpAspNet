@@ -16,7 +16,7 @@ namespace Exceptions {
       {
         StackFrame sf = new StackFrame();
         methodName = sf.GetMethod()!.Name; 
-        throw new DivideByZeroException($"Erro ao tentar realizar a divisão por um numero zero no método => {methodName} ");
+        throw new DivideByZeroException($"Error when trying to divide a number by zero in the method => {methodName} ");
       }
       return res;
     }

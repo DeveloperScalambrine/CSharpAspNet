@@ -30,6 +30,7 @@ namespace Exceptions
       catch (DivideByZeroException)
       {
         StackFrame sf = new StackFrame();
+ 
         methodName = sf.GetMethod()!.Name;
         str.WriteLine($"Name of class: {GetType()} Name of method {methodName}");
         throw new DivideByZeroException($"Error when trying to divide a number by zero in the method => {methodName} ");
@@ -109,6 +110,9 @@ namespace Exceptions
         }
         Console.WriteLine($"{name} foi localizado");
         return true;
+        methodName = sf.GetMethod()!.Name; 
+        throw new DivideByZeroException($"Error when trying to divide a number by zero in the method => {methodName} ");
+
       }
     }
   }

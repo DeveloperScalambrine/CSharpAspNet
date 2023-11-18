@@ -15,16 +15,16 @@ namespace Exceptions
         // CreateFileExceptions.DivideNumbers(CreateFileExceptions.NumberOne, CreateFileExceptions.NumberTwo);
 
         // verificar se existe um arquivo válido retorne o caminho e apague o arquivo
-        Exceptions FilesExceptions = new Exceptions();
-        string fulllPath = FilesExceptions.IsExistFile(FilesExceptions.source);
-        Console.WriteLine(fulllPath);
+        // Exceptions FilesExceptions = new Exceptions();
+        // string fulllPath = FilesExceptions.IsExistFile(FilesExceptions.source);
+        // Console.WriteLine(fulllPath);
 
         // Validação de nome vazio ou nulo, idade sendo do tipo int e se um nome consta na lista
         // Person exc = new Person();
         // string nameReturned = exc.ShowName("Henrique");
         // object ageReturned = exc.ShowAge(37);
         // // exc.ListPerson();
-        // bool IsUser = exc.VerifyName("Henrique");
+        // bool IsUser = exc.VerifyName("Henriqueu");
         // string result = (IsUser == true) ? "Processo finalizado" : "Processo não finalizado";
         // Console.WriteLine(result);
       }

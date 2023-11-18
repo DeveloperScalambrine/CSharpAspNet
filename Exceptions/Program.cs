@@ -58,7 +58,6 @@ namespace Exceptions
       //   Console.WriteLine($"Usando a propriedade de exception classe mais genérica Message: {ex.Message}");
       // }
       // // string[] chemicalProduct = new string[3];
-
       // try
       // {
       //   chemicalProduct[0] = "Cálcio";

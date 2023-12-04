@@ -6,6 +6,15 @@ namespace TypesAndDebug
   {
     public static void Main()
     {
+      GenericList<int> ages = new GenericList<int>();
+      ages.Add(36);
+      ages.Add(46);
+      ages.Add(56);
+      GenericList<string> names = new GenericList<string>();
+      names.Add("Carlos");
+      names.Add("Henrique");
+      names.Add("Scalambrine");
+      
       /* Criando uma instancia de TypesAndDebug para vermos a sobre escrita do metodo ToString
 
         TypesAndDebug greet = new TypesAndDebug
@@ -14,7 +23,7 @@ namespace TypesAndDebug
         };
         Console.WriteLine(greet);
       */
-      
+
       /* Criando instancia de TypesAndDebug chamando o metodo estatico 
          sumYear que tem como propriedade SumYears 
          Console.WriteLine(TypesAndDebug.SumYear(TypesAndDebug.SumYears));
@@ -62,6 +71,8 @@ namespace TypesAndDebug
        string[] arrayEmails = emails.Split(";");
        
        */
+
+
     }
   }
 }

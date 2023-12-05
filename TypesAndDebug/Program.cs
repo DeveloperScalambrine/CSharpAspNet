@@ -7,14 +7,15 @@ namespace TypesAndDebug
     public static void Main()
     {
       GenericList<int> ages = new GenericList<int>();
-      ages.Add(36);
-      ages.Add(46);
-      ages.Add(56);
-      GenericList<string> names = new GenericList<string>();
-      names.Add("Carlos");
-      names.Add("Henrique");
-      names.Add("Scalambrine");
-      
+
+      ages.Add(10);
+      ages.Add(20);
+      ages.Add(30);
+      ages.Add(40);
+
+      ages.Print();
+
+
       /* Criando uma instancia de TypesAndDebug para vermos a sobre escrita do metodo ToString
 
         TypesAndDebug greet = new TypesAndDebug

@@ -13,15 +13,20 @@
       // Console.WriteLine(firstClient);
       try
       {
+        Motorcycle hornet = new Motorcycle();
          Car carCorolla = new Car();
          carCorolla.StartEngine();
-         if (carCorolla.IsEngineStarted == true)
+         hornet.StartEngine();
+         if (carCorolla.v8.IsStarted == true && hornet.CB750.IsStarted == true)
          {
             carCorolla.StopEngine();
-         } if (carCorolla.IsEngineStarted == false) {
+            hornet.StopEngine();
+         } if (carCorolla.v8.IsStarted == false && hornet.CB750.IsStarted == false) {
             carCorolla.StartEngine();
+            hornet.StartEngine();
          }    
-         carCorolla.Drive(12, 10);
+         carCorolla.Drive(11, 10);
+         hornet.Drive(20, 20);
       }
       catch (NullReferenceException e)
       {        

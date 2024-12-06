@@ -2,6 +2,9 @@
 {
   public static void Main(string[] args)
   {
-    // Your code here
+    double n1 = 10;
+    double n2 = 20;
+
+    Console.writeline(result = n1 + n2)
   }
 }
